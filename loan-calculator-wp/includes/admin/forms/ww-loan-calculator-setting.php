@@ -1003,7 +1003,7 @@ $remove_range_sliders = isset($loan_all_setting_data['remove_range_sliders']) ? 
                 </tr>
                 <tr class="loan_table_heading_lbl" <?php echo esc_attr($enable_loan_mortisation_tab_display, 'loan-calculator-wp'); ?>>
                     <th scope="row">
-                        <label for="loan_table_heading"><strong><?php esc_html_e('Loan Amortisation Table Tooltip', 'loan-calculator-wp'); ?></strong></label>
+                        <label for="loan_table_heading"><strong><?php esc_html_e('Loan Amortization Table Tooltip', 'loan-calculator-wp'); ?></strong></label>
                     </th>
                     <td>
                         <input type='text' name='ww_loan_option[loan_table_heading]' id='loan_table_heading' maxlength="60" value='<?php echo esc_attr($loan_table_heading, 'loan-calculator-wp'); ?>' class="regular-text">

@@ -3,7 +3,7 @@
  * Plugin Name: Loan Calculator WP
  * Plugin URI: https://www.worldwebtechnology.com/
  * Description: Advanced Loan Calculator for Home Loans, Personal Loans, and various other types of loans. Includes features like a repayment chart, amortization table, video tab, balloon payment option, and supports all currencies. Use the contact form shortcode for easy access.
- * Version: 1.5.3
+ * Version: 1.5.4
  * Author: World Web Technology
  * Author URI: https://www.worldwebtechnology.com/
  * Text Domain: loan-calculator-wp
@@ -26,7 +26,7 @@ if (!defined('ABSPATH')) exit;
  * @since 1.0.0
  */
 if (!defined('WW_LOAN_CALCULATOR_VERSION')) {
-    define('WW_LOAN_CALCULATOR_VERSION', '1.5.3'); //version of plugin
+    define('WW_LOAN_CALCULATOR_VERSION', '1.5.4'); //version of plugin
 }
 if (!defined('WW_LOAN_CALCULATOR_TEXT_DOMAIN')) { //check if variable is not defined previous then define it
     define('WW_LOAN_CALCULATOR_TEXT_DOMAIN', 'loan-calculator-wp'); //this is for multi language support in plugin
@@ -145,7 +145,7 @@ function ww_loan_calculator_register_activation()
         $loan_calculator_default_options['loan_feature_product_heading'] = esc_html__('Loan Product Features', 'loan-calculator-wp');
         $loan_calculator_default_options['video_heading'] = esc_html__('Video', 'loan-calculator-wp');
         $loan_calculator_default_options['repayment_chart_heading'] = esc_html__('Repayment Chart', 'loan-calculator-wp');
-        $loan_calculator_default_options['loan_table_heading'] = esc_html__('Loan Amortisation Table', 'loan-calculator-wp');
+        $loan_calculator_default_options['loan_table_heading'] = esc_html__('Loan Amortization Table', 'loan-calculator-wp');
         $loan_calculator_default_options['youtube_video_link'] = '';
         $loan_calculator_default_options['contact_popup_button_heading'] = esc_html__('Contact us now for a quote', 'loan-calculator-wp');
         $loan_calculator_default_options['calculator_disclaimer_heading'] = esc_html__('Calculator Disclaimer', 'loan-calculator-wp');
