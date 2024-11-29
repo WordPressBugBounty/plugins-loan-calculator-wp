@@ -34,6 +34,8 @@ The plugin provides an option for a contact form so that users can use the conta
 - Display loan chart
 - Change default chart
 - Print option
+- Remove decimal points option
+- Change default theme option
 - Google font support (New Theme)
 - Display various currencies in each form (New Theme)
 - About this calculator popup
@@ -42,6 +44,10 @@ The plugin provides an option for a contact form so that users can use the conta
 - Display disclaimer
 - Shortcode ready
 - Responsive ready
+- Balloon Amount
+- Set repayment frequency options (Monthly, Quarterly, Yearly, Weekly and Fortnightly)
+- Down Payment Option (Fixed Amount & With % Amount)
+- Extra Payment Option (pre payment)
 
 **Best Used For**
 
