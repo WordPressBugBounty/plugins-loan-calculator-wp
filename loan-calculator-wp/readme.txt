@@ -9,10 +9,10 @@ Author URI:        https://worldwebtechnology.com
 Requires at least: 5.8
 Requires PHP:      7.4
 Tested up to:      6.6
-Stable tag:        1.5.4
+Stable tag:        1.5.5
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
-Version:           1.5.4
+Version:           1.5.5
 
 Loan / EMI Calculator for Home Loan and Personal Loan
 
@@ -48,6 +48,8 @@ The plugin provides an option for a contact form so that users can use the conta
 - Set repayment frequency options (Monthly, Quarterly, Yearly, Weekly and Fortnightly)
 - Down Payment Option (Fixed Amount & With % Amount)
 - Extra Payment Option (pre payment)
+- Break-up of Total Payment (Chart)
+- Stacked bar Chart Option
 
 **Best Used For**
 
@@ -119,6 +121,13 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
   You can enable/disable loan fee calculation from the WP admin. Go to the loan calculator > click on the "Default value settings" tab and search for "Enable Fee Calculation" and enable/disable according to your needs.
 
 == Changelog ==
+
+= 1.5.5 (Dec 17, 2024) =
+* Break-up of Total Payment (Chart).
+* Stacked bar Chart Option.
+* jQuery Validation for the Backend Settings Fields.
+* Label Option for the Down Payment Field.
+* Maximum limit Option for the Down Payment.
 
 = 1.5.4 (Nov 25, 2024) =
 * Corrected a typo in the label.
