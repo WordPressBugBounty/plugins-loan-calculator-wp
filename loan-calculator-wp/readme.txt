@@ -8,11 +8,11 @@ Tags:              loan calculator, home loan calculator, car loan calculator, p
 Author URI:        https://worldwebtechnology.com
 Requires at least: 5.8
 Requires PHP:      7.4
-Tested up to:      6.6
-Stable tag:        1.5.5
+Tested up to:      6.7.1
+Stable tag:        1.5.6
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
-Version:           1.5.5
+Version:           1.5.6
 
 Loan / EMI Calculator for Home Loan and Personal Loan
 
@@ -78,12 +78,18 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
 1. Frontend view with Chart tab enabled
 2. Frontend view with Table tab enabled
 3. Frontend view with Video tab enabled
-4. General Settings
-5. Display Settings
-6. Default Value Settings
-7. Tab Field Settings
-8. Contact Us / Disclaimer Settings
-9. Misc Settings
+4. Home Loan - Calculator Demo
+5. Car Loan - Calculator Demo
+6. Personal Loan - Calculator Demo
+7. Education Loan - Calculator Demo
+8. Martgage Loan - Calculator Demo
+9. Business Loan - Calculator Demo
+10. General Settings
+11. Display Settings
+12. Default Value Settings
+13. Tab Field Settings
+14. Contact Us / Disclaimer Settings
+15. Misc Settings
 
 == Frequently Asked Questions ==
 
@@ -122,6 +128,10 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
 
 == Changelog ==
 
+= 1.5.6 (Feb 24, 2025) =
+* Added "Label Settings" to manage label text.
+* Added enable/disable Payment Mode.
+
 = 1.5.5 (Dec 17, 2024) =
 * Break-up of Total Payment (Chart).
 * Stacked bar Chart Option.
@@ -148,20 +158,20 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
 * Option to disable Sliders.
 
 = 1.5.0 (Sep 24, 2024) =
-* Added Extra Payment Feature with Time Savings Display
+* Added Extra Payment Feature with Time Savings Display.
 * Tab fields not working while creating PDF, the table was overlapping in PDF.
 * Resolved currency issue in new theme front end view.
-* Add notes in admin backend settings form
-* Resolved section issues while print PDF in both theme
-* Resolved section fields/structure issues in front end view in both theme
-* Resolved Repayment Frequency dropdown issue while print PDF in both theme
+* Add notes in admin backend settings form.
+* Resolved section issues while print PDF in both theme.
+* Resolved section fields/structure issues in front end view in both theme.
+* Resolved Repayment Frequency dropdown issue while print PDF in both theme.
 
 = 1.4.2 (Aug 30, 2024) =
 * Fixed few warnings from the plugin.
 
 = 1.4.1 (Aug 30, 2024) =
 * Fixed issue of Chart not appear in the Print.
-* Fixed issue of numlock keypad not working in down payment field
+* Fixed issue of numlock keypad not working in down payment field.
 * Removed Contact Button when popup content or link is not added.
 * Removed Video Tab when video link is not added.
 
@@ -169,13 +179,13 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
 * Resolved default setting issue, with save fields.
 
 = 1.3.9 (Jul 15, 2024) =
-* Add backend setting for Display Loan Term Label
-* Fixed issue with Display Loan Term Label ( with Year and month format )
-* Fixed NaN issue with repaymant options
+* Add backend setting for Display Loan Term Label.
+* Fixed issue with Display Loan Term Label (with Year and month format).
+* Fixed NaN issue with repaymant options.
 
 = 1.3.8 (Jul 09, 2024) =
 * Resolved Dynamic frequency issue.
-* Checked with the Latest WordPress version 6.5.5
+* Checked with the Latest WordPress version 6.5.5.
 
 = 1.3.7 (Jun 27, 2024) =
 * Fixed issue with dynamic text.
@@ -209,11 +219,11 @@ The Loan Calculator WP Pro plugin allows you to create a wide range of advanced 
 * Added backend setting description for the fields. 
 
 = 1.2.1 (Nov 20, 2023) =
-* Verified and ensured compatibility with WordPress version 6.4
+* Verified and ensured compatibility with WordPress version 6.4.
 * Resolve a few issues with the version compatibility. 
 
 = 1.2.0 (Nov 16, 2023) =
-* Verified and ensured compatibility with WordPress version 6.3.2
+* Verified and ensured compatibility with WordPress version 6.3.2.
 
 = 1.0.9 =
 * Added default payment mode setting.
