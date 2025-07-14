@@ -3,7 +3,7 @@
  * Plugin Name: Loan Calculator WP
  * Plugin URI: https://www.worldwebtechnology.com/
  * Description: Advanced Loan Calculator for Home Loans, Personal Loans, and various other types of loans. Includes features like a repayment chart, amortization table, video tab, balloon payment option, and supports all currencies. Use the contact form shortcode for easy access.
- * Version: 2.0.2
+ * Version: 2.0.3
  * Author: World Web Technology
  * Author URI: https://www.worldwebtechnology.com/
  * Text Domain: loan-calculator-wp
@@ -26,7 +26,7 @@ if (!defined('ABSPATH')) exit;
  * @since 2.0.0
  */
 if (!defined('WW_LOAN_CALCULATOR_VERSION')) {
-    define('WW_LOAN_CALCULATOR_VERSION', '2.0.2'); //version of plugin
+    define('WW_LOAN_CALCULATOR_VERSION', '2.0.3'); //version of plugin
 }
 if (!defined('WW_LOAN_CALCULATOR_TEXT_DOMAIN')) { //check if variable is not defined previous then define it
     define('WW_LOAN_CALCULATOR_TEXT_DOMAIN', 'loan-calculator-wp'); //this is for multi language support in plugin
@@ -297,9 +297,19 @@ function ww_loan_calculator_register_activation()
 
     $plugin_activate_time =  strtotime( "now" );
     update_option( 'plugin_activation_time', $plugin_activate_time );
-    update_option( 'lc_avoid_notice', 0 );
-    update_option( 'lc_rating_notice', 0 );
-    update_option( 'last_notice_timestamp', 0 );
+    $lc_avoid_notice = get_option('lc_avoid_notice');
+    if ($lc_avoid_notice === false) {
+        update_option('lc_avoid_notice', 0);
+    }
+    $lc_rating_notice = get_option('lc_rating_notice');
+    if ($lc_rating_notice === false) {
+        update_option( 'lc_rating_notice', 0 );
+    }
+    
+    $get_last_notice_avoid_time = get_option('last_notice_timestamp');
+    if ($get_last_notice_avoid_time === false) {
+        update_option( 'last_notice_timestamp', 0 );
+    }
 }
 
 /**
