@@ -216,7 +216,6 @@ function cal_interest_amount_by_fre_payment_option(frp_option, loan_terms_months
 
     }  
 
-    /* 2025-05-13 */
     return monthlyInterestAmount;
 
   } else if (frp_option === 'Yearly') {
